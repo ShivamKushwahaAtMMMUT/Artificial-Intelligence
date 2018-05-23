@@ -148,12 +148,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Artificial Intelligence.cpp" />
+    <ClCompile Include="City.cpp" />
+    <ClCompile Include="Repository.cpp" />
+    <ClCompile Include="SimlatedAnnealingTSP.cpp" />
     <ClCompile Include="SimulatedAnnealing.cpp" />
+    <ClCompile Include="SingleTour.cpp" />
     <ClCompile Include="Vertex.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="City.h" />
     <ClInclude Include="Constants.h" />
+    <ClInclude Include="Repository.h" />
+    <ClInclude Include="SimlatedAnnealingTSP.h" />
     <ClInclude Include="SimulatedAnnealing.h" />
+    <ClInclude Include="SingleTour.h" />
     <ClInclude Include="Vertex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

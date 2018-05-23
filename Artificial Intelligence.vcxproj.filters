@@ -13,27 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="BFSandDfs">
+      <UniqueIdentifier>{8d91eef9-f2b4-4c16-9ac8-f6c5eca6f143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimulatedAnnealing">
+      <UniqueIdentifier>{c517eb16-8b83-4e97-9195-2681f6451ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TSP">
+      <UniqueIdentifier>{0b479305-9abc-4639-b42a-2f7c8ee42d3d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Artificial Intelligence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Vertex.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>BFSandDfs</Filter>
     </ClCompile>
     <ClCompile Include="SimulatedAnnealing.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SimulatedAnnealing</Filter>
+    </ClCompile>
+    <ClCompile Include="City.cpp">
+      <Filter>TSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>TSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SimlatedAnnealingTSP.cpp">
+      <Filter>TSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTour.cpp">
+      <Filter>TSP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vertex.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Constants.h">
-      <Filter>Header Files</Filter>
+      <Filter>BFSandDfs</Filter>
     </ClInclude>
     <ClInclude Include="SimulatedAnnealing.h">
-      <Filter>Header Files</Filter>
+      <Filter>SimulatedAnnealing</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>SimulatedAnnealing</Filter>
+    </ClInclude>
+    <ClInclude Include="City.h">
+      <Filter>TSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>TSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SimlatedAnnealingTSP.h">
+      <Filter>TSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTour.h">
+      <Filter>TSP</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
