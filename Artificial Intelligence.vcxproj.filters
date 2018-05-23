@@ -39,10 +39,10 @@
     <ClCompile Include="Repository.cpp">
       <Filter>TSP</Filter>
     </ClCompile>
-    <ClCompile Include="SimlatedAnnealingTSP.cpp">
+    <ClCompile Include="SingleTour.cpp">
       <Filter>TSP</Filter>
     </ClCompile>
-    <ClCompile Include="SingleTour.cpp">
+    <ClCompile Include="SimulatedAnnealingTSP.cpp">
       <Filter>TSP</Filter>
     </ClCompile>
   </ItemGroup>
@@ -62,10 +62,10 @@
     <ClInclude Include="Repository.h">
       <Filter>TSP</Filter>
     </ClInclude>
-    <ClInclude Include="SimlatedAnnealingTSP.h">
+    <ClInclude Include="SingleTour.h">
       <Filter>TSP</Filter>
     </ClInclude>
-    <ClInclude Include="SingleTour.h">
+    <ClInclude Include="SimulatedAnnealingTSP.h">
       <Filter>TSP</Filter>
     </ClInclude>
   </ItemGroup>
