@@ -22,6 +22,9 @@
     <Filter Include="TSP">
       <UniqueIdentifier>{0b479305-9abc-4639-b42a-2f7c8ee42d3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Genetic Algorithms">
+      <UniqueIdentifier>{bfc23eb5-8dba-42ba-b1e9-0c95bc98fca9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Artificial Intelligence.cpp">
@@ -45,6 +48,15 @@
     <ClCompile Include="SimulatedAnnealingTSP.cpp">
       <Filter>TSP</Filter>
     </ClCompile>
+    <ClCompile Include="GAIndividual.cpp">
+      <Filter>Genetic Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPopulation.cpp">
+      <Filter>Genetic Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAlgorithm.cpp">
+      <Filter>Genetic Algorithms</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vertex.h">
@@ -67,6 +79,18 @@
     </ClInclude>
     <ClInclude Include="SimulatedAnnealingTSP.h">
       <Filter>TSP</Filter>
+    </ClInclude>
+    <ClInclude Include="GAConstants.h">
+      <Filter>Genetic Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="GAIndividual.h">
+      <Filter>Genetic Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPopulation.h">
+      <Filter>Genetic Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAlgorithm.h">
+      <Filter>Genetic Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
